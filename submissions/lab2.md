@@ -218,7 +218,7 @@ $ git commit -S -s --allow-empty -m "docs: upstream moved while you worked"
 [main 4b6195c] docs: upstream moved while you worked
 ```
 
-Pushing it directly to `origin/main` was blocked by the branch protection rules configured in Lab 1, so I rebased onto the locally moved `main` commit instead.
+Because my Lab 1 branch protection intentionally blocks direct pushes to `main`, I could not update `origin/main` directly. To keep the same learning objective, I rebased `feature/lab2` onto the locally advanced `main` commit and documented the branch protection rejection as the reason for this deviation.
 
 ```text
 $ git push origin main
