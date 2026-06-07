@@ -139,22 +139,32 @@ Starring repositories is useful because it both bookmarks projects for future re
 
 ### Community Checklist
 
-- [ ] Starred `inno-devops-labs/DevOps-Intro`
+- [x] Starred `inno-devops-labs/DevOps-Intro`
 - [x] Starred `simple-container-com/api`
 - [x] Followed `@Cre-eD`
 - [x] Followed `@Naghme98`
 - [x] Followed `@pierrepicaud`
-- [ ] Followed at least 3 classmates
+- [x] Followed at least 3 classmates
 
 ## Bonus Task - Branch Protection and Required Signed Commits
 
 ### Evidence To Add After GitHub Setup
 
-- Add a screenshot of the `main` branch protection rule showing required signed commits, PRs, and linear history.
-- Paste the exact `remote: error:` line from the rejected unsigned push attempt.
+![Rule Evidence](../Screenshots/Bonus1.png)
+![Rule Evidence](../Screenshots/Bonus2.png)
 
 ```text
-remote: error: <paste the rejection line here after testing the unsigned push>
+remote: error: GH013: Repository rule violations found for refs/heads/main.
+remote:
+remote: - Changes must be made through a pull request.
+remote:
+remote: - Commits must have verified signatures.
+remote:   Found 1 violation:
+remote:
+remote:   0a81b5f122ddd1c6ec3b96c69b54060c10dfba0c
+remote:
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'github.com:BearAx/DevOps-Intro.git'
 ```
 
 ### Reflection
