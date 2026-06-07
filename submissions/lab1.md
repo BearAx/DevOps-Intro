@@ -131,8 +131,7 @@ I prepared the required GitHub PR template at `.github/pull_request_template.md`
 
 ### PR Evidence To Add After Push
 
-- Add a screenshot showing the PR description auto-populated from the template.
-- Fill every checkbox in the PR checklist before submitting the PR link.
+![PR Evidence](../Screenshots/Task2_Evidence.png)
 
 ## Task 3 - GitHub Community
 
