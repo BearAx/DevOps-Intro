@@ -140,10 +140,10 @@ Starring repositories is useful because it both bookmarks projects for future re
 ### Community Checklist
 
 - [ ] Starred `inno-devops-labs/DevOps-Intro`
-- [ ] Starred `simple-container-com/api`
-- [ ] Followed `@Cre-eD`
-- [ ] Followed `@Naghme98`
-- [ ] Followed `@pierrepicaud`
+- [x] Starred `simple-container-com/api`
+- [x] Followed `@Cre-eD`
+- [x] Followed `@Naghme98`
+- [x] Followed `@pierrepicaud`
 - [ ] Followed at least 3 classmates
 
 ## Bonus Task - Branch Protection and Required Signed Commits
